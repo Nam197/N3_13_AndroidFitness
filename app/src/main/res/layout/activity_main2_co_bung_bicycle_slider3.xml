@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="390dp">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:textSize="15sp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:text="        Hướng dẫn
+        1. Nằm ngửa trong tư thế thoải mái, hai tay đưa ra sau đầu và chân thẳng
+        2. Mở rộng khi bạn nâng một đầu gối về phía mặt trong khi lái khuỷu tay đối diện với đầu gối
+        3. Khi cơ bụng của bạn được ký hợp đồng đầy đủ, từ từ hạ thấp trở lại vị trí bắt đầu và lặp lại ở phía đối diện
+        4. Hoàn thành cho số lần lặp lại được chỉ định"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.luongoc.n3_13_androidfitness.TrangChu.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/llToobar"
+        android:layout_alignParentTop="true"
+        android:background="#5cc6fa"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:layout_width="58dp"
+            android:layout_height="58dp"
+            android:src="@drawable/icon_menu"
+            android:background="#5cc6fa"
+            android:padding="18dp"/>
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="58dp"
+            android:text="Excerices"
+            android:layout_marginTop="16dp"
+            android:textSize="25dp"
+            android:textColor="#ffff"
+            android:layout_marginLeft="12dp"/>
+
+        <ImageView
+            android:id="@+id/imgDNDK"
+            android:padding="12dp"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/icon_menu50"
+            android:layout_width="58dp"
+            android:layout_height="58dp" />
+    </LinearLayout>
+
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_below="@id/llToobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="#d1d0d0"
+            android:id="@+id/llContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/llTrangChu1"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#eae9e9"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt1"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/hot" />
+
+                    <TextView
+                        android:id="@+id/tvMota1"
+                        android:layout_width="220dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginTop="18dp"
+                        android:text="CƠ BỤNG"
+                        android:textSize="28dp" />
+
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo1"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+            <LinearLayout
+                android:id="@+id/llTrangChu2"
+                android:background="#eae9e9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt2"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota2"
+                        android:layout_width="220dp"
+                        android:text="CƠ LƯNG"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo2"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+            <LinearLayout
+                android:background="#eae9e9"
+                android:id="@+id/llTrangChu3"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt3"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota3"
+                        android:layout_width="220dp"
+                        android:text="BẮP TAY"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo3"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+
+            <LinearLayout
+                android:background="#eae9e9"
+                android:id="@+id/llTrangChu4"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt4"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota4"
+                        android:layout_width="220dp"
+                        android:text="BẮP CHÂN"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo4"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+            <LinearLayout
+                android:background="#eae9e9"
+                android:layout_width="match_parent"
+                android:id="@+id/llTrangChu5"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt5"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota5"
+                        android:layout_width="220dp"
+                        android:text="CƠ NGỰC"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo5"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+            <LinearLayout
+                android:id="@+id/llTrangChu6"
+                android:background="#eae9e9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt6"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota6"
+                        android:layout_width="220dp"
+                        android:text="CẲNG TAY"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo6"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+            <LinearLayout
+                android:background="#eae9e9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/llTrangChu7"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt7"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota7"
+                        android:layout_width="220dp"
+                        android:text="CƠ CHÂN"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo7"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+            <LinearLayout
+                android:background="#eae9e9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/llTrangChu8"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt8"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota8"
+                        android:layout_width="220dp"
+                        android:text="CƠ VAI"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo8"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="90dp"
+                android:background="#959ffc"></View>
+
+            <LinearLayout
+                android:background="#eae9e9"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/llTrangChu9"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp">
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/imgAvt9"
+                        android:src="@drawable/hot"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:id="@+id/tvMota9"
+                        android:layout_width="220dp"
+                        android:text="CƠ BA ĐẦU"
+                        android:textSize="28dp"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_height="match_parent" />
+                    <ImageView
+                        android:padding="5dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:id="@+id/imgGo9"
+                        android:layout_width="30dp"
+                        android:src="@drawable/icon_go"
+                        android:layout_height="30dp"
+                        />
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

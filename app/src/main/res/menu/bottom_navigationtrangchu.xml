@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item1"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/item2"
+        android:title="Menu"
+        android:icon="@drawable/ic_menu"/>
+    <item android:id="@+id/item3"
+        android:title="Đăng Kí"
+        android:icon="@drawable/ic_add_person"/>
+    <item
+        android:id="@+id/item4"
+        android:title="Custom"
+        android:icon="@drawable/ic_custom"/>
+
+
+</menu>

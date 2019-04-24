@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#bffaf9"
+    android:orientation="vertical"
+    android:layout_width="340dp"
+    android:layout_height="340dp">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="12dp"
+        android:textColor="#002fff"
+        android:text="Đăng Nhập"/>
+    <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+        <TextView
+            android:textColor="#0a0a0a"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:text="UserName:"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/edtUser"
+            android:layout_marginLeft="10dp"
+            android:hint="Tên đăng nhập"
+            android:textSize="18sp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="58dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+        <TextView
+            android:textColor="#0a0a0a"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+            android:text="PassWord: "/>
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:hint="Mật Khẩu"
+            android:textSize="18sp"
+            android:id="@+id/edtPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDangNhap"
+        android:background="@drawable/layout_bg_ok"
+        android:text="Đăng nhập"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="50dp" />
+
+    <TextView
+        android:textColor="#fd6601"
+        android:id="@+id/tvDangKy"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Bấm vào đây để Đăng ký nếu bạn chưa có tài khoản?"/>
+
+
+</LinearLayout>

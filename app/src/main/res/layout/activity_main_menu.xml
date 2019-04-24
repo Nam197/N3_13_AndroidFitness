@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e1e1e1"
+    android:orientation="vertical"
+    tools:context="com.example.luongoc.n3_13_androidfitness.TrangChu.MainMenu">
+
+    <LinearLayout
+        android:id="@+id/llTool"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/llMenu1"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMenu1"
+                    android:padding="7dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/icon_exe" />
+
+                <TextView
+                    android:textColor="#5e5e5e"
+                    android:id="@+id/tvMenu1"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Bài Tập"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenu2"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMenu2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:padding="2dp"
+                    android:src="@drawable/icon_work" />
+
+                <TextView
+                    android:textColor="#5e5e5e"
+                    android:id="@+id/tvMenu2"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Tập Luyện"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenu3"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:padding="7dp"
+                    android:id="@+id/imgMenu3"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/icon_custom" />
+
+                <TextView
+                    android:textColor="#5e5e5e"
+                    android:id="@+id/tvMenu3"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Thói Quen"
+                    android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenu4"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMenu4"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/icon_history"
+                    android:padding="10dp"/>
+
+                <TextView
+                    android:textColor="#5e5e5e"
+                    android:id="@+id/tvMenu4"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Lịch Sử"
+                    android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llMenu5"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginTop="5dp"
+            android:background="#f4f4f4"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imgMenu5"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/icon_more"
+                    android:padding="1dp"/>
+
+                <TextView
+                    android:textColor="#5e5e5e"
+                    android:id="@+id/tvMenu5"
+                    android:layout_width="230dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Mở Rộng"
+                    android:textSize="25dp" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#000"></View>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:background="@drawable/dialog_bg_cancle"
+        android:text="EXIT"
+        android:textSize="25sp"
+        android:textColor="#ffff"
+        />
+
+
+</LinearLayout>
